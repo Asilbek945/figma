@@ -4,12 +4,27 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  user-select: none;
-  cursor: pointer;
+  /* user-select: none; */
+  /* cursor: pointer; */
 }
 
 /* Sayt qismi style */
 
+.sayt
+{
+  max-width: 2000px;
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+  padding: 20px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
 
 
 /* 2-qismi style */
