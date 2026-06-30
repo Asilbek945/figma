@@ -44,7 +44,12 @@
   width: 100%;
   height: auto;
   border: 12px solid black;
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;  
 }
 
 .tepa_A .img
@@ -57,6 +62,16 @@
   align-items: center;
   background-color: rgba(0, 0, 0, 0.473);
 
+}
+
+.tepa_A .chap
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;  
 }
 
 .img img
