@@ -41,15 +41,25 @@
 }
 .ikki .tepa_A
 {
-  /* width: 100%;
-  height: auto; */
-  width: 1920;
-height: 96.89466857910156;
-opacity: 1;
-border-bottom-width: 1px;
-padding-top: 20px;
-padding-right: 40px;
-padding-bottom: 20px;
-padding-left: 40px;
+  width: 100%;
+  height: auto;
+  border: 12px solid black;
 
+}
+
+.tepa_A .img
+{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.473);
+
+}
+
+.img img
+{
+  object-fit: cover;
 }

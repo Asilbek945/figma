@@ -1,46 +1,37 @@
-import React, { useEffect } from 'react'
-import $ from "jquery";
-
+import React from 'react'
+import img1 from './Salom.png'
 const App = () => {
-
-  // useEffect( ()=>{},[])
-
-  useEffect(() => {
-
-    let parol = "yopiq"
-
-    $("#ikonka").click(function () {
-
-      if (parol == "yopiq") {
-        $("input").attr("type", "text")
-        $("#ikonka").attr("class", "fa-solid fa-eye-slash")
-        parol = "ochiq"
-      }
-      else {
-        $("input").attr("type", "password")
-        $("#ikonka").attr("class", "fa-solid fa-eye")
-        parol = "yopiq"
-      }
-
-    })
-
-  }, [])
-
   return (
     <div className='sayt'>
+      <div className="ikki">
 
       <div className="tepa_A">
-        <h1 className=''> Text  </h1>
-        <img src={img1} alt="" />
+        <div className="img">
+        <img className='w-[50px]' src={img1} alt="" />
+        </div>
+        <div className="chap">
+          <ul>
+            <li>
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+              <a href=""></a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <input type="password" placeholder='parolni kiring' />
-      <i id='ikonka' class="fa-solid fa-eye"></i>
-      <div className='ikki'></div>
+
+      </div>
 
 
+      
     </div>
   )
-
 }
 
 export default App
