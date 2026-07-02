@@ -1,4 +1,5 @@
 import React from 'react'
+
 import img1 from './Salom.png'
 import Samandar from './Samandar'
 const App = () => {
