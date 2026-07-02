@@ -42,7 +42,8 @@
 .ikki .tepa_A
 {
   width: 100%;
-  height:500px;
+  height:auto;
+  padding-inline: 30px;
   border: 12px solid black;
   display: flex;
   flex-wrap: wrap;
