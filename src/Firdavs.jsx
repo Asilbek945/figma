@@ -1,4 +1,5 @@
 import React from 'react'
+
 import rasm1 from './rasm1.png'
 import rasm2 from './rasm2.webp'
 import rasm4 from './rasm4.png'
@@ -49,7 +50,7 @@ const App = () => {
       </div>
 
 
-      {/* <div className="cards1">
+      <div className="cards1">
         <div className="card1">
         <img src={rasm4} alt="" />
         <h1>News</h1>
@@ -163,7 +164,7 @@ const App = () => {
         <h1>News</h1>
         <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
         </div>
-      </div> */}
+      </div>
 
 
 
