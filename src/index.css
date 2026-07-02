@@ -6,14 +6,15 @@ div {
 .navhed
 {
   width: 100%;
-  height: 700px;
+  height: 600px;
     background: url(./rasm2.webp) no-repeat center / cover;
+
 }
 .navbar {
   width: 100%;
   height: 100px;
-  background: rgba(0, 0, 0, 0.671);
-  color: white;
+  background: linear-gradient(to bottom ,rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.548));
+    color: white;
   border-bottom: 2px solid white;
 }
 
@@ -73,28 +74,40 @@ div {
 /* navbar */
 
 .header {
-  height: 600px;
-  background: rgba(0, 0, 0, 0.671);
+  height: 500px;
+    background: linear-gradient(to top ,gray,rgba(0, 0, 0, 0.582));
   color: white;
-  margin-top: -20px;
+  /* margin-top: -22px; */
   /* z-index: -1; */
 }
 
 
 
 .header h1 {
- 
-
+font-size: 90px;
+font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
 
 .header h3 {
-
+font-size: 25px;
   color: white;
 }
-
-
-
+.header1
+{
+  width: 100%;
+  height: 250px;
+display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.header2
+{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
 /* header */
 
 .navbar2 {

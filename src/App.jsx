@@ -35,137 +35,15 @@ const App = () => {
         </div>
 
       <div className="header">
+        <div className="header1">
         <h1>Projects</h1>
+        </div>
+        <div className="header2">
         <h3>Quality and affordability are an integral part of Focil’s design and <br /> construction. Whether we are building a custom residence.</h3>
+        </div>
       </div>
    </div>
    {/* /xecrtvugybihu */}
-      {/* <div className="navbar2">
-        <ul>
-          <li><a href="">images</a></li>
-          <li><a href="">news</a></li>
-          <li><a href="">gallery</a></li>
-          <li><a href="">videos</a></li>
-        </ul>
-      </div> */}
- 
-
-
-      {/* <div className="cards1">
-        <div className="card1">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card1">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card1">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card1">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-      </div>
-
-
-      <div className="cards2">
-        <div className="card2">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card2">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card2">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card2">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-      </div>
-      
-      <div className="cards3">
-        <div className="card3">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card3">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card3">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card3">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-      </div>
-      
-      <div className="cards4">
-        <div className="card4">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card4">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card4">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card4">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-      </div>
-
-      <div className="cards5">
-        <div className="card5">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card5">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card5">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-        <div className="card5">
-        <img src={rasm4} alt="" />
-        <h1>News</h1>
-        <h3>Quality and affordability are an integral part of <br /> Focil’s design and</h3>
-        </div>
-      </div> */}
 
 
 
