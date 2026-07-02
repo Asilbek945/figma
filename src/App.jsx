@@ -1,19 +1,15 @@
 import React from 'react'
-import rasm1 from './rasm1.png'
-import rasm2 from './rasm2.webp'
-import rasm4 from './rasm4.png'
-
+import img1 from './Salom.png'
 const App = () => {
   return (
-    < div>
-    <div className="navhed">
-
-      <div className="navbar">
-        <div className="navbarr">
-        <img src={rasm1} alt="" />
+    <div className='sayt'>
+      <div className="ikki">
+      <div className="tepa_A">
+        <div className="chap">
+        <div className="img">
+        <img className='w-[50px] h-[50px]' src={img1} alt="" />
         </div>
-        <div className="navbarrr">
-<ul>
+          <ul>
             <li>
               <a href="./Abdurahmon.jsx">HOME</a>
               <a href="./App.jsx">SERVICES</a>
@@ -21,16 +17,17 @@ const App = () => {
               <a href="./Mumar.jsx">Gallery</a>
               <a href="./Mrizo.jsx">Testimonials</a>
               <a href="./Umar.jsx">Trades</a>
-              <  select className='a' >
-                <option className='a1' value="">Contact us</option>
-                <option className='a1' value="">Contact us1</option>
-                <option className='a1' value="">Contact us2</option>
+              <select>
+                <option value="">Contact us</option>
+                <option value="">Contact us1</option>
+                <option value="">Contact us2</option>
               </select>
               <a href="./Samanadar.jsx">Coverage areas</a>
               <a href="">(805) 323-9515</a>
               <a href=""><i class="fa-brands fa-instagram"></i></a>
             </li>
           </ul>
+<<<<<<< HEAD
       </div>
         </div>
 
@@ -55,6 +52,12 @@ const App = () => {
 
 
 
+=======
+        </div>
+      </div>
+
+      </div>
+>>>>>>> 98a76a3ce51c42d629b0fe5cae25cc16f90a8040
 
 
 

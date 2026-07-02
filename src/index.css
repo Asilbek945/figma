@@ -1,11 +1,53 @@
-div {
-  margin: auto;
-  text-align: center;
-  /* background-color: yellowgreen; */
+
+
+@import "tailwindcss";
+
+/* Asosiy */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* user-select: none; */
+  /* cursor: pointer; */
 }
-.navhed
+
+/* Sayt qismi style */
+
+.sayt
+{
+  max-width: 5300px;
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+  padding: 20px;
+  border: 10px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+
+
+/* 2-qismi style */
+
+.sayt .ikki
+{
+  width: 1500px;
+  height: auto;
+  /* padding: 5px; */
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.ikki .tepa_A
 {
   width: 100%;
+<<<<<<< HEAD
   height: 600px;
     background: url(./rasm2.webp) no-repeat center / cover;
 
@@ -16,43 +58,74 @@ div {
   background: linear-gradient(to bottom ,rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.548));
     color: white;
   border-bottom: 2px solid white;
-}
-
-.navbarr {
-  width: 50%;
-  height: 100px;
-  /* background-color: yellow; */
-  float: left;
+=======
+  height:auto;
+  /* padding-inline: 30px; */
+  /* border: 12px solid black; */
+  background-color: rgba(0, 0, 0, 0.226);
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-}
-.navbarrr {
-  width: 50%;
-  height: 100px;
-/* background-color: #f9c513; */
-  display: flex;
-  justify-content: end;
-  align-items: center;
+  gap: 50px;  
+>>>>>>> 98a76a3ce51c42d629b0fe5cae25cc16f90a8040
 }
 
-.navbar ul {
-  display: flex;
-  font-family: Arial, Helvetica, sans-serif;
-  gap: 20px;
-  /* font-size: 11px; */
-  list-style: none;
-}
-
-.navbarrr ul li {
-  list-style: none;
+.tepa_A .img
+{
+  width: 60px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 30px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.473);
+  float: left;
+  /* margin-left: -100px; */
 }
 
-.navbarrr ul li a {
+.tepa_A .chap
+{
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;  
+  float: right;
+}
+
+.img img
+{
+  object-fit: cover;
+   
+}
+
+.chap ul
+{
+  text-transform: uppercase;
+  /* background-color: red; */
+  margin-left: 200px;
+}
+
+.chap ul li
+{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.chap ul li a
+{
   color: white;
+<<<<<<< HEAD
 
   text-decoration: none;
 }
@@ -519,4 +592,10 @@ display: flex;
   color: #444444;
   font-weight: 300;
   margin-top: 40px;
+=======
+  line-height: 20px;
+  font-weight: 900;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+>>>>>>> 98a76a3ce51c42d629b0fe5cae25cc16f90a8040
 }
