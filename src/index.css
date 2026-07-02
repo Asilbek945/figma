@@ -3,6 +3,29 @@ div {
   text-align: center;
   /* background-color: yellowgreen; */
 }
+
+/* Sayt qismi style */
+
+/* .sayt
+{
+  max-width: 5300px;
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+  padding: 20px;
+  border: 10px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+} */
+
+
+/* 2-qismi style */
+
+
 .navhed
 {
   width: 100%;
@@ -13,15 +36,18 @@ div {
 .navbar {
   width: 100%;
   height: 100px;
-  background: linear-gradient(to bottom ,rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.548));
+  background: linear-gradient(to bottom ,rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.548));
     color: white;
   border-bottom: 2px solid white;
 }
-
+img
+{
+  width: 120px;
+  height: 100px;
+}
 .navbarr {
   width: 50%;
   height: 100px;
-  /* background-color: yellow; */
   float: left;
   display: flex;
   align-items: center;
@@ -29,7 +55,6 @@ div {
 .navbarrr {
   width: 50%;
   height: 100px;
-/* background-color: #f9c513; */
   display: flex;
   justify-content: end;
   align-items: center;
@@ -39,7 +64,7 @@ div {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   gap: 20px;
-  /* font-size: 11px; */
+  font-size: 13px;
   list-style: none;
 }
 
