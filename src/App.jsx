@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import rasm1 from './rasm1.png'
 import rasm2 from './rasm2.webp'
 import rasm4 from './rasm4.png'
@@ -12,6 +13,21 @@ const App = () => {
         </div>
         <div className="navbarrr">
 <ul>
+=======
+import img1 from './Salom.png'
+import Samandar from './Samandar'
+
+const App = () => {
+  return (
+    <div className='sayt'>
+      <div className="ikki">
+      <div className="tepa_A">
+        <div className="chap">
+        <div className="img">
+        <img className='w-[50px]' src={img1} alt="" />
+        </div>
+          <ul>
+>>>>>>> 6596fc00602af3920400d043cab7f87850165e10
             <li>
               <a href="./Abdurahmon.jsx">HOME</a>
               <a href="./App.jsx">SERVICES</a>
@@ -24,11 +40,16 @@ const App = () => {
                 <option value="">Contact us1</option>
                 <option value="">Contact us2</option>
               </select>
+<<<<<<< HEAD
               <a href="./Samanadar.jsx">Coverage areas</a>
+=======
+              <a href="./Samandar.jsx">Coverage areas</a>
+>>>>>>> 6596fc00602af3920400d043cab7f87850165e10
               <a href="">(805) 323-9515</a>
               <a href=""><i class="fa-brands fa-instagram"></i></a>
             </li>
           </ul>
+<<<<<<< HEAD
       </div>
         </div>
 
@@ -177,6 +198,14 @@ const App = () => {
 
 
 
+=======
+        </div>
+      </div>
+
+      </div>
+
+      <Samandar />  
+>>>>>>> 6596fc00602af3920400d043cab7f87850165e10
 
     </div>
   )
