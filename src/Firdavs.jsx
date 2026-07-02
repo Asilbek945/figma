@@ -5,9 +5,7 @@ import rasm4 from './rasm4.png'
 
 const App = () => {
   return (
-    < div>
-    <div className="navhed">
-
+    <div>
       <div className="navbar">
         <div className="navbarr">
         <img src={rasm1} alt="" />
@@ -21,10 +19,10 @@ const App = () => {
               <a href="./Mumar.jsx">Gallery</a>
               <a href="./Mrizo.jsx">Testimonials</a>
               <a href="./Umar.jsx">Trades</a>
-              <  select className='a' >
-                <option className='a1' value="">Contact us</option>
-                <option className='a1' value="">Contact us1</option>
-                <option className='a1' value="">Contact us2</option>
+              <select>
+                <option value="">Contact us</option>
+                <option value="">Contact us1</option>
+                <option value="">Contact us2</option>
               </select>
               <a href="./Samanadar.jsx">Coverage areas</a>
               <a href="">(805) 323-9515</a>
@@ -35,20 +33,20 @@ const App = () => {
         </div>
 
       <div className="header">
+        <img src={rasm2} alt="" />
         <h1>Projects</h1>
         <h3>Quality and affordability are an integral part of Focil’s design and <br /> construction. Whether we are building a custom residence.</h3>
+        <div className="soya"></div>
       </div>
-   </div>
-   {/* /xecrtvugybihu */}
-      {/* <div className="navbar2">
+
+      <div className="navbar2">
         <ul>
           <li><a href="">images</a></li>
           <li><a href="">news</a></li>
           <li><a href="">gallery</a></li>
           <li><a href="">videos</a></li>
         </ul>
-      </div> */}
- 
+      </div>
 
 
       {/* <div className="cards1">
